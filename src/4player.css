@@ -41,3 +41,7 @@ td:nth-last-child(2) {
 td:nth-last-child(1) {
     color: red;
 }
+td:hover {
+    transform: scale(1.1);  /*Increases size by 10%*/
+    background-color: yellow!important; /*Changes color to yellow*/
+}

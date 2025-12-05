@@ -21,11 +21,13 @@ td:hover {
 }
 
 .odd:nth-child(odd) {
-    background-color: rgba(82, 82, 82, 0.92);
+    background-color: black;
+    color: white;
 }
-
+                                /*===FIXES FOREGROUND AND BACKGROUND FOR BOTH SHADES===*/
 .even:nth-child(even) {
-    background-color: rgba(82, 82, 82, 0.92);
+    background-color: black;
+    color: white;
 }
 
 div+p {
